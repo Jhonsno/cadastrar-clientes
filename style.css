@@ -4,7 +4,7 @@
 }
 
 legend{
-    color: purple;
+    color: black;
     
 }
 
@@ -15,8 +15,9 @@ legend{
 input{
     margin-right: 20px;
     margin-bottom: 20px;
+    background-color: aquamarine;
 }
 
 .box{
     width: 50%;
-} 
+}

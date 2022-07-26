@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="box">
+    <div class="box info-block">
         <h1 class="font-blue">CADASTRO DE CLIENTES </h1>
         <form action="" id="form">
             <div class="info-block">
@@ -33,8 +33,8 @@
             <div class="info-block">
                 <fieldset>
                     <legend>DADOS PARA CONTATO</legend>
-                    <label for="phone">Celular</label>
-                    <input type="number" id="phone" name="phone">
+                    <label for="cellphone">Celular</label>
+                    <input type="text" id="cellphone" name="cellphone">
 
                     <label for="email">E-mail</label>
                     <input type="text" id="email" name="email">
@@ -43,7 +43,7 @@
                     <input type="text" id="social_networks" name="social_networks">
 
                     <label for="phone">Telefone</label>
-                    <input type="number" id="phone" name="phone">
+                    <input type="text" id="phone" name="phone">
                 </fieldset>
             </div>
 
@@ -79,6 +79,21 @@
                 cadastrar cliente
             </button>
         </form>
+
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Whatsapp</th>
+                <th>País</th>
+                <th>Cidade</th>
+            </tr>
+        </table>
+        <div id="result">
+
+        </div>
 
     </div>
 
