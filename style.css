@@ -21,3 +21,7 @@ input{
 .box{
     width: 50%;
 }
+
+.list{
+    display: flex;
+}
